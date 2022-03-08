@@ -1,0 +1,24 @@
+
+	http://   www.professorisidro.com.br  :80  /index.html
+	  1                  2                 3       4
+	  
+	
+	  
+	 1 - protocolo: a forma (idioma/padrão) que vou me comunicar com aquele serviço
+	 2 - endereço/nome da máquina que eu quero acessar
+	 3 - porta: número do processo (programa) que eu preciso entrar em contato
+	 4 - recurso: o arquivo cujo conteúdo eu quero para poder acessar (hierárquico como as pastas)
+	
+
+	Modelo estático: acesso o arquivo apontado pelo recurso, leio seu conteúdo e retorno
+	                 este conteúdo para o browser via rede	
+					 
+	Modelo dinâmico: o recurso precisa estar mapeado para uma classe/método JAVA. Ao acessar  
+	                 a URL, na verdade eu não leio o conteúdo, mas eu executo o programa JAVA
+					 e retorno pela rede o resultado desta execução
+					 
+					 
+	Modelo estático -> web server
+	Modelo dinâmico -> application server (rodo aplicações/programas)
+	
+	
